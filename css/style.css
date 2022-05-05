@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    background: #083B4C;
+}
+
+#mio_id {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding: 20px;
+}

@@ -9,10 +9,18 @@ for (let i = 1; i <= 100; i++) {
     // li.append (i);
     ul.append (li);
     console.log("numero: " + i);
+
+    if (i % 3 == 0) {
+        risultato = "fizz"
+    }   else if (i % 5 == 0) {
+        risultato = "buzz"
+    } else {
+        risultato = "fizzbuzz"
+    }
+
+    console.log(risultato);
 }
 
 // se ci sono multipli di 3 stampo Fizz
 // se ci sono multipli di 5 stampo Buzz
 // se ci sono sia multipli di 3 e che di 5 stampo FizzBuzz
-
-if ()
