@@ -10,17 +10,19 @@ for (let i = 1; i <= 100; i++) {
     ul.append (li);
     console.log("numero: " + i);
 
+    // se ci sono multipli di 3 stampo Fizz
+    // se ci sono multipli di 5 stampo Buzz
+    // se ci sono sia multipli di 3 e che di 5 stampo FizzBuzz
     if (i % 3 == 0) {
-        risultato = "fizz"
+        risultato = "fizz";
     }   else if (i % 5 == 0) {
-        risultato = "buzz"
-    } else {
-        risultato = "fizzbuzz"
+        risultato = "buzz";
+    } else  {
+        (i % 3 % 5 == 0);
+        risultato = "fizzbuzz";
     }
 
     console.log(risultato);
 }
 
-// se ci sono multipli di 3 stampo Fizz
-// se ci sono multipli di 5 stampo Buzz
-// se ci sono sia multipli di 3 e che di 5 stampo FizzBuzz
+
