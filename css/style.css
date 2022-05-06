@@ -10,7 +10,6 @@ li {
 
 #mio_id {
     width: 100%;
-    /* height: 100vh; */
     background: #083B4C;
 }
 
@@ -33,9 +32,24 @@ li {
     margin: 15px;
     min-width: 140px;
     min-height: 140px;
-    border: 1px solid black;
     text-align: center;
     line-height: 140px;
     font-size: 25px;
     font-weight: 500;
+}
+
+#mio_id .list .box.fizz-buzz {
+    background: #F0466F;
+}
+
+#mio_id .list .box.fizz {
+    background: #0AD6A1;
+}
+
+#mio_id .list .box.buzz {
+    background: #FFD166;
+}
+
+#mio_id .list .box.number {
+    background: #1389B2;
 }
